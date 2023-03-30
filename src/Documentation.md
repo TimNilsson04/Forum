@@ -3,3 +3,4 @@ Under denna lektion så har jag skapat ett grundtemplat med alla filer som behö
 Jag kommer forsätta nästa lektion med att göra en connection mellan filerna och försöka implementera gamla koden.
 
 ### Vecka 13 Torsdag
+Jag har skapat grund saker i filerna såsom public controller och public model och skapat gets och sets i ForumView.
