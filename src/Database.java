@@ -45,7 +45,7 @@ public class Database {
             String name = in.nextLine();
             System.out.println("Ange lösenord:");
             String password2 = in.nextLine();
-            SQLQuery = "INSERT INTO tn03users(name,password) VALUES ('"+name+", "+password2+"')";
+            SQLQuery = "INSERT INTO tn03users(name,password) VALUES ('"+name+",tab "+password2+"')";
             stmt.executeUpdate(SQLQuery);
 
             //update

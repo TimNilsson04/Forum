@@ -8,11 +8,12 @@ public class ForumView {
     private JButton LOGINButton;
     private JButton NEWPOSTButton;
 
-    public ForumView(JPanel forum, JTextArea textArea1, JButton LOGINButton, JButton NEWPOSTButton) {
-        Forum = forum;
-        this.textArea1 = textArea1;
-        this.LOGINButton = LOGINButton;
-        this.NEWPOSTButton = NEWPOSTButton;
+    public JPanel getForum() {
+        return Forum;
+    }
+
+    public JTextArea getTextArea1() {
+        return textArea1;
     }
 
     public void setTextArea1(JTextArea textArea1) {
@@ -23,8 +24,16 @@ public class ForumView {
         return LOGINButton;
     }
 
+    public void setLOGINButton(JButton LOGINButton) {
+        this.LOGINButton = LOGINButton;
+    }
+
     public JButton getNEWPOSTButton() {
         return NEWPOSTButton;
+    }
+
+    public void setNEWPOSTButton(JButton NEWPOSTButton) {
+        this.NEWPOSTButton = NEWPOSTButton;
     }
 }
 
